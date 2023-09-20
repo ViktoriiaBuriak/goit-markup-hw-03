@@ -9,10 +9,52 @@ a {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Nav */
+
+.header {
+  display: flex;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+
+.nav-list {
+  display: flex;
+}
 
 .nav-link {
   color: #2e2f42;
@@ -20,6 +62,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 
 .nav-link:hover {
@@ -48,12 +91,17 @@ ul {
   font-style: normal;
 }
 
+.address-list {
+  display: flex;
+}
+
 .address-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 
 .address-link:hover {
@@ -69,6 +117,8 @@ ul {
 
 .section-effective {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-heading {
@@ -78,6 +128,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -100,6 +151,24 @@ ul {
 }
 
 /* Section Strategy */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.strategy-list {
+  display: flex;
+  gap: 24px;
+}
 
 .strategy-heading {
   color: #2e2f42;
@@ -121,6 +190,11 @@ ul {
   background-color: #f4f4fd;
 }
 
+.our-team-main-list {
+  display: flex;
+  gap: 24px;
+}
+
 .our-team-list {
   background-color: #ffffff;
 }
@@ -133,6 +207,11 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.our-team-img {
+  margin-bottom: 32px;
 }
 
 .our-team-subtitle {
@@ -142,6 +221,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .our-team-paragraf {
@@ -149,6 +229,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /* Section Our Portfolio */
@@ -161,6 +242,17 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.our-portfolio-img {
+  margin-bottom: 32px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .our-portfolio-subtitle {
@@ -176,16 +268,23 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-studio {
   color: #f4f4fd;
+}
+
+.footer-logo {
+  margin-bottom: 17.5px;
 }
 
 .footer-paragraf {
