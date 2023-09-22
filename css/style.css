@@ -56,8 +56,7 @@ img {
 
 .header {
   display: flex;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -73,6 +72,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover {
@@ -114,6 +114,8 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .address-link:hover {
@@ -236,10 +238,6 @@ img {
   margin-bottom: 72px;
 }
 
-.our-team-img {
-  margin-bottom: 32px;
-}
-
 .our-team-text {
   padding: 32px 0;
 }
@@ -259,7 +257,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 /* Section Our Portfolio */
@@ -273,10 +270,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-}
-
-.our-portfolio-img {
-  margin-bottom: 32px;
 }
 
 .our-portfolio-main-list {
@@ -310,14 +303,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
   padding: 100px 0;
 }
 
@@ -333,7 +324,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
